@@ -1,0 +1,502 @@
+
+body, html{
+    box-sizing: border-box;
+    margin: 0;    
+    font-family: 'Saira', sans-serif;
+    Color:#202020;
+    background-color: #fcfcfc;
+    /* Color:#e2e8f0;     */
+    /* background-color: rgb(15, 23, 42);*/
+    height: 100%;    
+    font-size: 20px;
+    
+} 
+li{
+    list-style-type: none;
+}
+
+/* APLICADOS INDIVISUAIS */
+h1{
+    font-size: 52px;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;   
+    font-size: 30px;    
+    border-bottom: #4d4d4d 2px solid;
+}
+.contato h2{
+    border-bottom: #fcfcfc 2px solid;
+}
+h3{
+    font-size: 26px;
+    color: #4d4d4d;
+    margin: 0;
+}
+i{
+    color: #3a668b;
+    margin: 0;
+}
+i:hover{
+    color: #183a5c;
+    cursor: pointer;    
+}
+.email-enviado-obr{
+    width: 100vw;
+    height: 100vh;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.email-enviado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.email-enviado h4{
+    margin: 0;
+}
+
+.Logo{
+    background: url(/img/logomaikonmichaeldeveloperpretonova192x192.ico) no-repeat left center;    
+    width: 220px;
+    height: 100px;
+    margin-top: 10px;
+}
+/* NAV BAR TOPO */
+.nav-top{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    width: 98%;
+    height: 60px;
+    background-color: transparent;
+    padding: 12px;
+ 
+}
+/* MENU ESCONDE */
+.menuOculto{
+    height: 260px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #fcfcfc;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+    box-shadow: -1px 2px 15px 1px #888888;
+    overflow: hidden;
+}
+.menuOculto a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+}
+
+.btnFechar{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 50px;
+    margin-right: 15px;
+}
+
+#principal{
+    padding: 10px;
+    transition: margin-rigth 0.3s;
+}
+
+.nav-top section span{
+    font-size: 30px;
+    font-family: 'Saira', sans-serif;
+    cursor: pointer;
+}
+
+
+/* PRINCIPAL */
+.bloco_principal{
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-evenly;
+    align-items: center; 
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}   
+
+.principal-nome{
+    /* width: 400px; */
+    margin-left: 80px;
+}
+.principal-nome i{
+    margin: 10px 10px 10px 0;
+}
+
+.gif {
+   padding: 2px;
+   height: auto;  
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   align-items: center;
+   justify-content: flex-end;   
+}
+
+.referencia-img-principal{
+    position: absolute;
+    text-decoration: none;
+    color: #fcfcfc;
+    font-size: 10px;    
+    margin-bottom: 5px;
+}
+
+/* SOBRE MIM */
+.sobre_mim{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #f8f7f7; */
+}
+.sobre_mim p{
+    width: 920px;
+    color: #4d4d4d;
+    text-align: justify;
+}
+
+/* EM BREVE */
+.projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.projetos ul{
+    width: 920px;
+    padding: 0;
+    border: 2px solid green;
+}
+
+.projetos ul li{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: 2px solid blueviolet;
+    margin: 5px;
+}
+
+.projetos ul li .projeto-imagem{
+    width: 200px;
+    height: auto;
+}
+
+.projetos ul li .projeto-descrilcao{
+    height: auto;
+}
+
+/* HABILIDADES */
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #f8f7f7; */
+}
+
+.skills ul{    
+    width: 80%;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between; 
+    
+    padding: 0;
+}
+.skills ul li{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    height: 150px;
+    margin: 10px;
+    padding: 0;
+}
+.skills ul li span{
+    text-align: center;
+    padding: 2px;
+    color: #4d4d4d;
+    font-size: 15px;
+}
+.skills ul li p{
+    margin: 0 20px;
+}
+.icon-c-sharp{
+    background: url(/img/csharplogo__icon96x96.ico) no-repeat right top;
+    width: 96px;
+    height: 96px; 
+}
+.icon-c-sharp:hover{
+    background: url(/img/csharplogohover_icon96x96.ico) no-repeat right top;
+    width: 96px;
+    height: 96px; 
+}
+.icon-genexus{
+    background: url(/img/genexuslogo_icon128x128.ico) no-repeat center top;
+    width: 128px;
+    height: 96px;
+}
+.icon-genexus:hover{
+    background: url(/img/genexuslogohover_icon128x128.ico) no-repeat right top;
+    width: 128px;
+    height: 96px;
+}
+
+/* Contato */
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4d4d4d;
+    color: #fcfcfc;
+}
+
+.subcontato{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.formulario{
+    width: 650px;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.formulario form input{
+    height: 24px;
+    padding: 8px;
+    color: #202020;
+    border-radius: 4px;
+    width: 500px;
+    font-family: 'Saira', sans-serif;
+    outline: 0;
+    border: none;
+}
+.formulario form textarea{
+    padding: 8px;
+    color: #202020;
+    border-radius: 4px;    
+    width: 500px;
+    font-family: 'Saira', sans-serif;
+    outline: 0;
+    border: none;
+}
+.botao{
+    background-color: #3a668b;
+    color: #fcfcfc;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Saira', sans-serif;
+}
+
+.botao:hover{
+    color: #fcfcfc;
+    background-color: #308fdd;
+    cursor: pointer;
+}
+
+.botao-email{
+    background-color: #3a668b;
+    color: #fcfcfc;
+    width: 160px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Saira', sans-serif;
+    margin-top: 15px;
+}
+
+.botao-email:hover{
+    color: #fcfcfc;
+    background-color: #308fdd;
+    cursor: pointer;
+}
+.botao-email a{
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+.acesso-contatos{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.acesso-contatos h2{
+    margin: 0;
+    border: none;
+}
+
+.acesso-contatos i{
+    margin: 0;
+    color: #fcfcfc;
+}
+
+.add-redes{
+ margin-top: 30px;
+ 
+}
+.add-redes ul{
+    padding: 0;
+    margin: 0;
+}
+.add-redes ul li{
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+/* .add-redes ul li i:hover, 
+.add-redes ul li a:hover{
+    color: #3a668b;
+} */
+.add-redes ul li a{
+    text-decoration: none;
+    color: #fcfcfc;
+    margin-left: 10px;
+}
+/* Footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;    
+    background-color: #4d4d4d;    
+}
+footer p{
+    font-size: 12px;
+    color: #fcfcfc;
+}
+
+/* BARRA DE PROGRESSO */
+#progress-container {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+#progress-bar-container {
+    width: 100%;
+    height: 8px
+}
+  
+#progress-bar {
+    height: 8px;
+    background-image: -webkit-linear-gradient(90deg,#43b6bd, #308fdd);
+    background-image: linear-gradient(90deg, #43b6bd, #308fdd);
+    width: 0%;
+}
+
+/* RESPONSIVIDADE */
+/* @media screen and (max-height: 400px){
+    .menuOculto{padding-top: 15px;}
+    .menuOculto a{font-size: 18;}    
+} */
+
+@media screen and (max-height:960px), (max-height:900px){
+    .sobre_mim{
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 600px), (max-width: 400px) {
+    body{
+        margin:10px;
+    }
+    .Logo{
+        margin: 0;
+    }
+    .nav-top {
+        width: auto;
+        justify-content:space-between;
+        position: relative;
+    }
+
+    .btnFechar{
+        right: 35px;
+        margin-right: 35px;
+    }    
+    
+    .bloco_principal{
+        display: flex;
+        flex-direction: column;        
+    }
+
+    .bloco_principal .principal-nome .icone-esquerda{
+        margin-left: 38%;
+    }
+
+    .principal-nome{
+        margin: 100px 0 0 0;        
+    }
+    h1{
+        font-size: 32pt;
+    }
+    h3{
+        font-size: 18pt;
+    }        
+
+    .sobre_mim p{
+        width: auto;
+        margin: 0 10px;
+    }
+
+    .contato{
+        width: 100%;
+   
+    }
+    .subcontato{
+        flex-direction: column;        
+    }
+
+    .subcontato .acesso-contatos{
+        margin: 10px 5px;
+        width: 100%;
+    }
+
+    .subcontato .formulario{
+        margin: 0 5px;
+        width: 100%;
+    }
+
+    .formulario form input,
+    .formulario form textarea{
+        width: 92%;
+    }
+  }
