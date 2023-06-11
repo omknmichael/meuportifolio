@@ -64,7 +64,7 @@ i:hover{
 }
 
 .Logo{
-    background-image: url("../img/Logo220x62.png") no-repeat left center;   
+    background: url("../img/Logo220x62.png") no-repeat left center;   
     width: 220px;
     height: 100px;
     margin-top: 10px;
