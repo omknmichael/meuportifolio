@@ -64,7 +64,7 @@ i:hover{
 }
 
 .Logo{
-    background-image: url("/img/LogoMaikonMichaelDeveloperPretoNova.png") no-repeat left center;    
+    background: url(/img/Logo220x62.png) no-repeat left center;   
     width: 220px;
     height: 100px;
     margin-top: 10px;
@@ -248,22 +248,23 @@ i:hover{
     margin: 0 20px;
 }
 .icon-c-sharp{
-    background-image: url("/img/CSharpLogo.png") no-repeat right top;
+    background: url("/img/CSharpLogo100x96.png") no-repeat right top;
     width: 96px;
     height: 96px; 
 }
 .icon-c-sharp:hover{
-    background-image: url("/img/CSharpLogoHover.png") no-repeat right top;
+    background: url("/img/CSharpLogoHover100x96.png") no-repeat right top;
     width: 96px;
     height: 96px; 
 }
 .icon-genexus{
-    background-image: url("/img/GenexusLogo.png") no-repeat center top;
+    background: url("/img/GenexusLogo128x25.png") no-repeat center top;
     width: 128px;
     height: 96px;
+    margin: 40px 0 0 0;
 }
 .icon-genexus:hover{
-    background-image: url("/img/GenexusLogoHover.png") no-repeat right top;
+    background: url("/img/GenexusLogoHover128x25.png") no-repeat right top;
     width: 128px;
     height: 96px;
 }
